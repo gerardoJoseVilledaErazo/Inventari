@@ -12,6 +12,21 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        
+/*
+        Thread thread = new Thread(){
+            @Override
+            public void run(){
+                try {
+
+                }catch (Exception e){
+
+                }finally {
+
+                }
+            }
+        };
+        thread.start();*/
 
         //fab = (Button) findViewById(R.id.floating_action_button);
 
@@ -22,4 +37,10 @@ public class MainActivity extends AppCompatActivity {
 
         
     }
+/*
+    @Override
+    protected void onPause() {
+        super.onPause();
+        finish();
+    }*/
 }
